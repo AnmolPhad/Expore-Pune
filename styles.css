@@ -1,0 +1,334 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(images/city.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  height: 100;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.logo span {
+  color: #fa0303;
+}
+.logo {
+  width: 180px;
+  cursor: pointer;
+}
+nav ul {
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-right: 60px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+  border-radius: 20px;
+  padding: 10px 12px;
+}
+nav ul li a:hover {
+  background-color: #ecf1f2;
+}
+.button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  background: #fa0303;
+  color: #201f1f;
+  font-weight: 500;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid transparent;
+  transition: 0.4s;
+}
+.button:hover {
+  background-color: white;
+  border: 2px solid #fa0303;
+  cursor: pointer;
+}
+.button img {
+  width: 20px;
+  margin-right: 10px;
+}
+.logo {
+  font-size: 25px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 600;
+}
+.content {
+  margin-top: 14%;
+  color: #fff;
+  max-width: 620px;
+}
+.content h1 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 85px;
+  margin-bottom: 25px;
+}
+.content h1 span {
+  color: #ffffff;
+}
+.content p {
+  font-size: 20px;
+  font-weight: 600;
+  /* line-height: 85px;
+margin-bottom: 25px;  */
+}
+.content form {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 30px;
+}
+.content form input {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.content form .button {
+  font-size: 15px;
+  padding: 10px 30px;
+}
+.note {
+  position: relative;
+  padding: 100px 80px;
+  /* background: #222e32; */
+}
+.note h2 {
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.desti {
+  font-size: 4rem;
+  font-family: "dongle-bold";
+  /* margin-bottom: 40px;
+margin-left: 80px;
+margin-right: 80px; */
+  margin: 20px 80px;
+  text-align: center;
+}
+.desti-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+}
+.desti-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.desti-item img:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+.desti-item {
+  text-align: left;
+}
+.desti-item h3 {
+  text-align: left;
+  font-size: 1.4rem;
+  margin: 10px 0px;
+}
+.desti-item p {
+  font-family: "dongal-light";
+  font-size: 1rem;
+  transition: all 3s ease;
+  color: #000000;
+  margin: 10px;
+  height: 75px;
+}
+.desti {
+  font-size: 2.4rem;
+  font-family: "dongal-bold";
+  margin: 40px 80px;
+  text-align: center;
+}
+.desti h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.desti-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+}
+.desti-item button {
+  align-items: center;
+  color: #252424;
+  right: 50px;
+  border-radius: 30px;
+  background: #fa0303;
+  padding: 10px 15px;
+  margin-left: 150px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.explore {
+  background-image: url(images/explore2.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  height: 600px; /* You can adjust the height based on your design */
+  font-size: 16px;
+}
+
+.explore-cont {
+  color: white;
+  text-align: center; /* Center text */
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: -600px;
+}
+
+section div h1 {
+  margin-top: -130px;
+  /* margin-left: -200px; */
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+section div p {
+  font-size: 30px;
+  margin-bottom: 20px;
+  /* margin-left: -200px; */
+  font-family: "Courier New", Courier, monospace;
+}
+
+.ctn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  background: #fa0303;
+  color: #141414;
+  font-weight: 500;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid transparent;
+  transition: 0.4s;
+  position: absolute;
+  left: 500px;
+}
+
+.ctn:hover {
+  background-color: transparent;
+  border: 2px solid #fa0303;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background: #f2f1f1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.service {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.service-card {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  margin-bottom: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  align-items: center;
+  /* margin-left: 350px; */
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 10px; /* Adjust margin as needed */
+  background-color: #b1afaf;
+}
+
+.card-logo {
+  width: 13%;
+  margin-bottom: 10px;
+  aspect-ratio: 3/2;
+}
+
+div h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+div p {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #f7f6f6;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #c6c6c6;
+}
+
+#footerh1 {
+  color: #000000;
+}
+
+#footerp1 {
+  color: #000000;
+}
+
+#footerp2 {
+  color: #000000;
+}
